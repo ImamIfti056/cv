@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma,sans-serif;
+    color: #333;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+li{
+    list-style-type: none;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    margin: 10px 0;
+    color: #050e35;
+}
+
+.container{
+    max-width: 800px;
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    position: relative;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* header */
+
+header{
+    background-color: teal;
+    color: #fff;
+    padding: 20px 60px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    left: 30px;
+    border-radius: 20px;
+    border: 4px solid #050e35;
+}
+
+header .flex{
+    justify-content: space-around;
+}
+
+header .photo img{
+    height: 150px;
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+/* main */
+main.flex{
+    align-items: stretch;
+}
+/* left */
+main .left{
+    background-color: #050e35;
+    color: #fff;
+    padding: 50px 15px;
+    padding-top: 300px;
+}
+
+main .left h2{
+    color: #fff;
+}
+
+main .left i{
+    color: #fff;
+    font-size: 18px;
+}
+
+.contact{
+    margin-bottom: 50px;
+}
+
+.contact .flex, .follow_me .flex{
+    justify-content: left;
+    margin: 5px 0;
+}
+
+.contact .flex i, .follow_me .flex i{
+    margin-right: 10px;
+}
+
+.contact .flex, .follow_me .flex{
+    font-size: 18px;
+}
+
+.follow_me, .reference{
+    margin: 50px 0;
+}
+
+
+
+/* right */
+main .right{
+    padding: 15px;
+    padding-top: 270px;
+}
+.objective{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.education, .experience{
+    margin: 30px 0;
+}
+
+.education table tr:nth-child(odd){
+    background-color: #eee;
+}
+
+th,td{
+    padding: 10px;
+}
+
+.experience .flex {
+    font-size: 1.1rem;
+    margin: 20px 0;
+}
+
+.skills ul, .languages ul{
+    margin: 15px 0;
+    margin-left: 30px;
+    font-size: 1.1rem;
+}
+
+.skills ul li{
+    margin: 5px 0;
+}
+
+.languages h2{
+    padding-right: 20px;
+}
